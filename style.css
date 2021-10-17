@@ -1,0 +1,82 @@
+body {
+  background-color: #FFF0F5;
+  color: #EEA2AD;
+  font-family: Bradley Hand;
+}
+h1{
+	color: #DDA0DD;
+	font-family:Apple Chancery;
+	font-weight:800;
+	letter-spacing: 3px
+	font-size: 500px;
+}
+h2{
+	color: #DDA0DD;
+	font-family:Apple Chancery;
+	font-weight:800;
+	letter-spacing: 3px
+	font-size: 500px;
+}
+a{
+	text-decoration: none;
+	color: #DDA0DD;
+}
+a:hover{
+	color: yellow
+}
+#profile{
+	width: 100px;
+	border-radius: 50%;
+}
+
+.container{
+	width: 700px;
+	margin:20px auto;
+}
+@media (max-width: 760px){
+	.comtainer{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+.element{
+	background-color: #FDF5E6;
+	padding: 30px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 8px;
+	margin: 70px;
+	text-align: center;
+}
+.ima-circle{
+	border-radius: 50%;
+}
+.btn-pink{
+    background-color: white;
+	padding: 15px 20px;
+	border-radius: 8px;
+}
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li{
+    display: inline-block; 
+    background-color: white;
+	padding: 10px 15px;
+	border-radius: 8px
+}
+.list-inline i{
+	font-size: 50px;
+	color:#EEA2AD;
+}
+.list-inline i:hover{
+color: yellow
+}
+#introduction P{
+	margin-bottom: 40px;
+}
